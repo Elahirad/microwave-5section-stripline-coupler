@@ -1,9 +1,13 @@
 # 5-Section Stripline Coupler (CST + MATLAB)
+A fully parameterized 5-section stripline directional coupler designed at 2.1 GHz with 16 dB coupling, synthesized via multi-section impedance transformation and implemented in CST Studio Suite.
 
-This repository contains the complete workflow (design → modeling → simulation) of a **5-section stripline directional coupler** implemented in **CST**.  
-The multi-section coupling parameters and the **even/odd-mode impedances** are computed using a custom **MATLAB** script. Trace widths and spacings are obtained using an online coupled-stripline calculator.
+![CST](https://img.shields.io/badge/CST-Studio%20Suite-blue)
+![MATLAB](https://img.shields.io/badge/MATLAB-Synthesis-orange)
+![Microwave](https://img.shields.io/badge/Domain-Microwave%20Engineering-red)
 
 ## Repository Structure
+This repository contains the complete workflow (design → modeling → simulation) of a **5-section stripline directional coupler** implemented in **CST**.  
+The multi-section coupling parameters and the **even/odd-mode impedances** are computed using a custom **MATLAB** script. Trace widths and spacings are obtained using an online coupled-stripline calculator.
 - `CST/`  
   CST model file of the 5-section stripline coupler.
 - `MATLAB/`  
